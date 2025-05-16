@@ -22,7 +22,7 @@ const TodoList = () => {
 
   return (
     <div className="bg-white p-6 rounded-xl shadow-xl space-y-6">
-      <h1 className="text-3xl font-bold text-center text-purple-700">My Todos</h1>
+      <h1 className="text-3xl font-bold text-center text-purple-700">To DO Application</h1>
 
       <div className="flex gap-2">
         <InputField value={input} onChange={(e) => setInput(e.target.value)} />
